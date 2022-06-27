@@ -1,0 +1,123 @@
+
+/*sitesobremim*/
+
+*{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+    color: black;
+    background-color: rgb(236, 191, 44);
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /*por falta do flexbox meu mapa quando dá zoom não se ajusta com a tela*/
+    
+}
+
+.menu li {
+  background-color: black;
+  margin: 30px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: goldenrod;
+   }
+
+.center{
+   
+    flex-flow: nowrap;
+    align-items: center;
+}
+
+.container2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.final {
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .borda img{
+    border: 8px black;
+    margin: 20px;
+    padding: 20px;
+
+  }
+/*sitesobremim*/
+
+/*Contato.html*/
+
+.menu2 li {
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.menu2 li a{
+    text-decoration: none;
+}
+
+.menu2 li a:hover{
+ color: goldenrod;
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.marg-r{
+margin-right: 300px;
+}
+
+.marg-l{
+margin-left: 300px ;
+}
+
+
+/*Contato.html*/
+
+
+
+
+index.css
+
+
+
+/*index.html*/
+
+.m1{
+    color:cadetblue ;
+}
+
+.letra{
+    
+}
+
+.m2{
+    display: flex;
+}
+/*index.html*/
