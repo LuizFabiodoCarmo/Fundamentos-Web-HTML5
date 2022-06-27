@@ -1,4 +1,4 @@
-script.js
+
 
 let nome = window.document.getElementById('nome')
 let email= window.document.querySelector('#email')
@@ -15,7 +15,7 @@ email.style.width='80%'
 
 function valideNome(){
     let txt = document.querySelector('#txtNome')
-    if(nome.value.length < 3) {
+   if(nome.value.length < 3) {
      txtNome.innerHTML='Nome inválido! ❌'
      txtNome.style.color='red'
     } else{
